@@ -1,0 +1,34 @@
+.box{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-100{
+    flex:0 0 100%;/*flex-grow, flex-shrink, flex-basis */
+    max-width: 100%;
+}
+@media (min-width:576px){
+    .box{
+        max-width: 540px;
+    }
+    /*min 576-------------------------*/
+}
+@media (min-width:768px){
+    .box{
+        max-width:720px;
+    }
+    /*min 768-------------------------*/
+}
+@media (min-width:992px){
+    .box{
+        max-width:960px
+    }
+    /*min 992-------------------------*/
+}@media (min-width:1200px){
+    .box{
+        max-width:1140px
+    }
+    /*min 1200-------------------------*/
+}
