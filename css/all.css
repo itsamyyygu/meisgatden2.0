@@ -88,6 +88,9 @@
 .m-b-3{
     margin-bottom: 3rem;
 }
+.m-b-5{
+    margin-bottom: 5rem;
+}
 .m-l-1{
     margin-left: 1rem;
 }
@@ -124,6 +127,10 @@
 .p-tb-3{
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+.p-tb-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 .p-lr-1{
     padding-left: 1rem;
@@ -255,3 +262,4 @@
 .j-c-bt{
     justify-content:space-between;/*水平均分*/
 }
+

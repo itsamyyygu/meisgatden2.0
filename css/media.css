@@ -9,9 +9,18 @@
     flex:0 0 100%;/*flex-grow, flex-shrink, flex-basis */
     max-width: 100%;
 }
+/*只要class的屬性為"col-"的*/
+[class^="col-"]{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 @media (min-width:576px){
     .box{
         max-width: 540px;
+    }
+    .col-s-50{
+        flex:0 0 50%;
+        max-width: 50%;
     }
     /*min 576-------------------------*/
 }
@@ -24,6 +33,18 @@
 @media (min-width:992px){
     .box{
         max-width:960px
+    }
+    .col-l-25{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-l-40{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-l-60{
+        flex: 0 0 60%;
+        max-width: 60%;
     }
     /*min 992-------------------------*/
 }@media (min-width:1200px){
